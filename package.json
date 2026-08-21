@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 3456",
     "build": "next build",
-    "start": "next start -H 0.0.0.0 -p 3456"
+    "start": "next start -H 0.0.0.0 -p 3456",
+    "bridge": "node bridge/daemon.mjs"
   },
   "dependencies": {
     "next": "^15.3.3",

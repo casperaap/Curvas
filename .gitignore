@@ -1,15 +1,5 @@
-# Dependencies
 node_modules/
-
-# Next.js build output
 .next/
-out/
-
-# Local environment files (keep secrets off GitHub)
-.env*
-!.env.example
-
-# Logs and local tooling
-*.log
-.DS_Store
-
+.env.local
+bridge/state.json
+workspace/
